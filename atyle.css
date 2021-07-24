@@ -1,0 +1,274 @@
+
+
+/* navbar */
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+header{border: 2px solid rebeccapurple;
+    width: 100%;
+    display: flex;
+  
+     
+}
+
+nav{
+    flex: 1;
+}
+
+nav ul{
+    list-style: none;
+     
+}
+
+nav ul li{
+    display: inline-block; 
+    margin-left: 30px;  
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo{
+     margin-right: 300px;
+     margin-top: 10px;
+}
+
+.button button{
+    background: none;
+    border:none ;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button .btn-3 {
+    margin-right: 15px;
+    border-radius: 20px;
+    background-color: rgba(17, 17, 209, 0.589);
+}
+.button .btn-2 {
+    margin-right: 15px;
+    border-radius: 20px;
+   border: 1px solid  rgba(17, 17, 209, 0.589);;
+}
+
+.button{
+    margin-top: 5px; 
+}
+
+.card-section{ border: 2px solid blue;
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 1460px;
+
+}
+.card{ 
+    margin: 15px;
+    padding: 20px;
+    border-radius: 22px;
+
+
+}
+.card h1{
+    font-size: 25px;
+}
+.card a{
+ text-decoration: none;
+ font-size: 17px;
+ font-weight: 600;
+ line-height: 25px;
+ 
+}
+
+.card-image img{
+    width: 200px;
+    height:210px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.card-1{
+    background-color: #0dcabec5;
+  
+}
+.card-1 img{
+    border:2px solid #03fae9c5;
+}
+ 
+.card-2{
+    background-color: #FFE3E3;
+   
+}
+.card-2 img{
+    border:2px solid #fdf4f4;
+}
+.card-3{
+    background-color: #FAAD80;
+    
+}
+.card-3 img{
+    border:2px solid #f8a372;
+}
+.card-4{
+    background-color: #71efa3be;
+ 
+}
+.card-4 img{
+    border: 2px solid #5cf198 ;
+}
+.card-5{
+    background-color: #fcd8d43d;
+}
+.card-5 img{
+    border: 2px solid #ffd2cd ;
+}
+
+/* LATEST POSTS */
+
+.LATEST-POSTS{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     
+}
+.LATEST-POSTS-image{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 10px gainsboro;
+}
+.LATEST-POSTS-image img{
+    width: 550px;
+    height: 500px;
+}
+.LATEST-POSTS-titel{
+    display: flex;
+    flex-direction: column;
+  width: 600px;
+  margin-left: 30px;  
+}
+.LATEST-POSTS-titel h1{
+    font-size: 55px;
+}
+.LATEST-POSTS-titel p{
+    font-size: 17px;
+    font-weight: 600;
+}
+.LATEST-POSTS-titel a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.LATEST-POSTS-titel button{
+    border: none;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* big card */
+ 
+
+.big-cards{ 
+    display: flex;
+    flex-direction: row;
+     
+    
+}
+.big-card{ 
+    border: 2px solid gray;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.562) ;
+    border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-start;
+ margin: 20px;
+ width: 330px;
+ height: 550px;
+ padding: 5px;
+}
+.bid-img{
+
+}
+.big-titel {
+    margin-left: 20px;
+     
+}
+.big-titel h1{
+font-size: 30px;
+font-weight: 600;
+}
+.big-titel a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+.big-button button{
+    margin-left: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.322);
+    padding: 8px 25px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* 4th-section */
+
+.fourth-section{
+
+    display: flex;
+    flex-direction: row;
+}
+.div-1{border: 2px solid red;
+    width: 530px;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width:430px;
+    height: 266px;
+     
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Subscribe */
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
