@@ -512,3 +512,93 @@ hr{
 .social span i{
     font-size: 20px;
 }
+
+
+
+/* @media */
+/* header ,.sec-titel , .big-cards , .LATEST-POSTS, .fourth-section, .learn-button, .cards-001, .sub, .card-section-footer, footer {
+    display: none;
+} */
+
+@media only screen and (max-width:688px) {
+    .card-section{ border: 5px solid blue;
+       
+        margin-top: 10px;
+        margin-bottom: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    header ,.sec-titel , .big-cards , .LATEST-POSTS, .fourth-section, .learn-button, .cards-001, .sub, .card-section-footer, footer {
+        display: none;
+    }
+    .cards{ border: 3px solid red;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+       margin: 0; 
+         
+    }
+    .card{ 
+        width: 50%;
+        height: 200px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px gray;
+         
+    
+    
+    }
+    .card-image img{
+        width: 100%;
+        height:100%;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+
+    .card h1{
+        font-size: 25px;
+    }
+    .card a{
+      display: none;
+     
+    }
+    
+    
+    
+    .card-1{
+        background-color: #0dcabec5;
+      
+    }
+    .card-1 img{
+        border:2px solid #03fae9c5;
+    }
+     
+    .card-2{
+        background-color: #FFE3E3;
+       
+    }
+    .card-2 img{
+        border:2px solid #fdf4f4;
+    }
+    .card-3{
+        background-color: #FAAD80;
+        
+    }
+    .card-3 img{
+        border:2px solid #f8a372;
+    }
+    .card-4{
+        background-color: #71efa3be;
+     
+    }
+    .card-4 img{
+        border: 2px solid #5cf198 ;
+    }
+    
+}
