@@ -6,12 +6,14 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 header{border: 2px solid rebeccapurple;
     width: 100%;
     display: flex;
+    align-items:center;
+    height: 80px;
   
      
 }
@@ -65,8 +67,9 @@ nav ul li a{
     margin-top: 5px; 
 }
 
-.card-section{ border: 2px solid blue;
+.card-section{ 
     margin-top: 10px;
+    margin-bottom: 60px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -81,9 +84,12 @@ nav ul li a{
 
 }
 .card{ 
+    width: 200px;
+    height: 325px;
     margin: 15px;
     padding: 20px;
     border-radius: 22px;
+    box-shadow: 1px 1px 5px gray;
 
 
 }
@@ -246,23 +252,29 @@ font-weight: 600;
     display: flex;
     flex-direction: row;
 }
-.div-1{border: 2px solid red;
+.div-1{ 
     width: 530px;
     height: 535px;
+    border-radius: 25px;
     background: #F6AE99;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-right: 10px;
+    box-shadow: 1px 1px 5px gray;
 }
-.div-2{border: 2px solid red;
+.div-2{ 
     width: 530px;
     height: 535px;
+    border-radius: 25px;
     background: #FAAD80;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
+    box-shadow: 1px 1px 5px gray;
 }
 .titel{
     padding: 15px;
@@ -435,6 +447,12 @@ font-weight: 600;
     border-radius: 40px;
 }
 
+hr{
+   width: 95%;
+   border: 1px solid gray;
+
+}
+
 /* footer */
 
 .lage{
@@ -455,8 +473,9 @@ font-weight: 600;
     font-weight: 600;
 }
 
-.card-section-footer{ border: 2px solid blue;
+.card-section-footer{  
     margin-top: 10px;
+    margin-bottom: 30px;
     width: 100%;
     height: 300px;
     display: flex;
@@ -465,18 +484,29 @@ font-weight: 600;
     flex-direction: row;
 }
 
-.footer-img{border: 2px solid red;
+.footer-img{ 
     width: 500px ;
     height: 300px;
     margin-left: 20px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
 }
+.footer-img img{
+    margin-bottom: 30px;
 
+}
+
+.footer-img p{
+    font-size: 18px;
+    line-height: 20px;
+}
  
 .social span{
     margin: 10px;
-
+}
+.social span i{
+    font-size: 20px;
 }
