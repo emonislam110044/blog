@@ -422,8 +422,6 @@ font-weight: 600;
 }
 .sub-btn{
     background-color: rgba(175, 175, 175, 0.747);
-     /* margin:60px ;
-    padding:50px 60px; */
     border-radius: 50px; 
 }
 
@@ -457,23 +455,7 @@ hr{
 
 /* footer */
 
-.lage{
-    margin-right:50px ;
-}
-.lage ul{
-    list-style: none;
-    margin: 20px;
-}
-.lage li{
-    margin: 10px;
-    padding: 10px;
-}
 
-.lage a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-}
 
 .card-section-footer{  
     margin-top: 10px;
@@ -512,7 +494,28 @@ hr{
 .social span i{
     font-size: 20px;
 }
+.footer-lage{
+    display: flex;
+    flex-direction: row;
+}
 
+.lage{
+    margin-right:50px ;
+}
+.lage ul{
+    list-style: none;
+    margin: 20px;
+}
+.lage li{
+    margin: 10px;
+    padding: 10px;
+}
+
+.lage a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
 
 
 /* @media */
@@ -532,10 +535,10 @@ hr{
         flex-direction: row;
     }
 
-    header ,.sec-titel , .big-cards , .LATEST-POSTS, .fourth-section, .learn-button, .cards-001, .sub, .card-section-footer, footer {
+    header ,.sec-titel , .card-section-footer, footer {
         display: none;
     }
-    .cards{ border: 3px solid red;
+    .cards{  
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -544,15 +547,17 @@ hr{
          
     }
     .card{ 
-        width: 50%;
+        width: 80%;
         height: 200px;
         margin: 5px;
         padding: 10px;
         border-radius: 10px;
         box-shadow: 1px 1px 5px gray;
-         
     
-    
+    }
+    .card-image{
+        width: 90%;
+        margin-left: 12px;
     }
     .card-image img{
         width: 100%;
@@ -562,15 +567,12 @@ hr{
     }
 
     .card h1{
-        font-size: 25px;
+        font-size: 20px;
     }
     .card a{
       display: none;
      
     }
-    
-    
-    
     .card-1{
         background-color: #0dcabec5;
       
@@ -601,4 +603,347 @@ hr{
         border: 2px solid #5cf198 ;
     }
     
+    .LATEST-POSTS{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .LATEST-POSTS-image{ border: 5px solid green;
+        width: 80%;
+    }
+    .LATEST-POSTS-image img{
+        width: 100%;
+       height: 90%;
+    }
+    .LATEST-POSTS-titel{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 90%;
+        padding: 2%;
+
+    }
+
+    /* big-card */
+
+    .big-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .big-card{ 
+        border: 2px solid gray;
+        box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.562) ;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 350px;
+        height: 350px;
+     
+        
+    }
+    .bid-img{
+    
+    }
+    
+    .bid-img img{
+    height: 100%;
+    width: 100%;
+    }
+    .big-titel {
+        margin-left: 20px;
+         
+    }
+    .big-titel h1{
+    font-size: 30px;
+    font-weight: 600;
+    }
+    .big-titel a{
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    
+    }
+    .big-button button{
+        margin-left: 20px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.322);
+        padding: 8px 25px;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+
+    /* .fourth-section */
+    .fourth-section{ 
+            margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .div-1 { 
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 350px;
+        height: 350x;
+        border-radius: 25px;
+        background: #F6AE99;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 5px gray;
+        position: relative;
+    }
+    .div-2{ 
+        margin-right: 16px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 350px;
+        height: 350x;
+        border-radius: 25px;
+        background: #F6AE99;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 1px 5px gray;
+        position: relative;
+    }
+      
+     
+    .image{
+        width:90%;
+        padding: 5px;
+       
+        position:absolute;
+        top: 10px;
+    }
+           
+    
+    .image img{
+        width: 100%;
+        height: 90%;
+        border-top-right-radius: 25px ;
+        border-top-left-radius: 25px;
+    } 
+    .titel{
+        padding: 15px;
+        position: absolute;
+        top: 250px;
+       
+    }
+    .titel h2{
+        font-size: 30px;
+        
+    }
+    .titel a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .titel button{
+        margin-top: 50px;
+        margin-left: 20px;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.322);
+        padding: 8px 25px;
+        border-radius: 15px;
+        font-weight: 600;
+        font-size: 16px;  
+    }
+    /* .learn-button, */
+    .learn-button{
+        margin: 40px;
+    }
+    
+    .learn-button button{
+    
+     padding: 15px 25px;
+     border: none;
+     background-color: #7C83FD;
+     border-radius: 20px;
+     color: #ffffff;
+     font-weight: 600;
+     font-size: 16px;
+    }
+
+    /* .cards-001 */
+    .cards-001{  
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 10px;
+       margin: 0; 
+         
+    }
+    .card{ 
+        width: 80%;
+        height: 200px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px gray;
+    
+    }
+    .card-image{
+        width: 90%;
+        margin-left: 12px;
+    }
+    .card-image img{
+        width: 100%;
+        height:100%;
+        padding-bottom: 5px;
+        border-radius: 20px;
+    }
+
+    .card h1{
+        font-size: 20px;
+    }
+    .card a{
+      display: none;
+     
+    }
+    .card-01{
+        background-color: #0dcabec5;
+      
+    }
+    .card-01 img{
+        border:2px solid #03fae9c5;
+    }
+     
+    .card-02{
+        background-color: #FFE3E3;
+       
+    }
+    .card-02 img{
+        border:2px solid #fdf4f4;
+    }
+    .card-03{
+        background-color: #FAAD80;
+        
+    }
+    .card-03 img{
+        border:2px solid #f8a372;
+    }
+    .card-04{
+        background-color: #71efa3be;
+     
+    }
+    .card-04 img{
+        border: 2px solid #5cf198 ;
+    }
+
+    /* .sub */
+    .sub{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+ 
+.sub-titel{
+    margin: 30px;
+}
+.sub-titel h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.sub-btn{
+    background-color: rgba(175, 175, 175, 0.747);
+    border-radius: 50px; 
+
+}
+
+.sub-btn input{
+    font-size: 20px;
+    font-weight: 500;
+    color: honeydew;
+    border-radius: 50px;
+    margin: 5px;
+    margin-left: 10px;
+}
+.sub-btn input ,button{
+    border: none;
+    background: none;
+}
+
+.sub-btn button{
+    color: rgb(243, 242, 241);
+    font-size: 18px;
+    background-color: #7C83FD;
+    margin: 5px;
+    padding:20px 30px;
+    border-radius: 40px;
+}
+
+/* footer */
+
+
+.card-section-footer{  border: 2px solid red;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img{ 
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     padding-left:15px;
+ 
+}
+
+.footer-img img{
+    margin-bottom: 30px;
+
+}
+
+.footer-img p{
+    font-size: 18px;
+    line-height: 20px;
+}
+ 
+.social span{
+    margin: 10px;
+}
+.social span i{
+    font-size: 20px;
+}
+.footer-lage{ 
+    display: flex;
+     
+}
+
+.lage{
+    margin-right:50px ;
+}
+.lage ul{border: 2px solid blue;
+    list-style: none;
+    margin: 20px;
+}
+.lage li{
+    margin: 10px;
+    padding: 10px;
+}
+
+.lage a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
 }
