@@ -6,7 +6,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header{border: 2px solid rebeccapurple;
@@ -16,6 +16,12 @@ header{border: 2px solid rebeccapurple;
     height: 80px;
   
      
+}
+.sec-titel{
+    transform: rotate(90deg);
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
 }
 
 nav{
@@ -80,7 +86,8 @@ nav ul li a{
 .cards{
     display: flex;
     flex-direction: row;
-    width: 1460px;
+    width: 1400px;
+    margin-left: 100px;
 
 }
 .card{ 
@@ -140,12 +147,7 @@ nav ul li a{
 .card-4 img{
     border: 2px solid #5cf198 ;
 }
-.card-5{
-    background-color: #fcd8d43d;
-}
-.card-5 img{
-    border: 2px solid #ffd2cd ;
-}
+ 
 
 /* LATEST POSTS */
 
