@@ -922,15 +922,20 @@ hr{
 .social span i{
     font-size: 20px;
 }
-.footer-lage{ 
+.footer-lage{  border: 1px solid black;
+    width: 100%;
+    margin-top: 10px;
     display: flex;
+
      
 }
 
-.lage{
-    margin-right:50px ;
+.lage-1{border: 2px solid blue;
+   margin-left: 60px;
+   
+
 }
-.lage ul{border: 2px solid blue;
+.lage ul{
     list-style: none;
     margin: 20px;
 }
